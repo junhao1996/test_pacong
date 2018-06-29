@@ -7,7 +7,13 @@ import requests as req
 #     print(i.status_code)
 
 def get_html(url):
+
     r = req.get(url)
+    try:
+        if r.status_code ==200:
+            return r.text
+    except:
+        print("error")
     print(type(r))
     # print(r.text)
     return r.text
