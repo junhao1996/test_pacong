@@ -16,7 +16,7 @@ def get_picture():
     # print(type(res.content))
     # data - objurl = "http://imgsrc.baidu.com/imgad/pic/item/10dfa9ec8a136327701bf8109b8fa0ec08fac71a.jpg"
     return result
-s = ",."
+
 
 def find():
     str_search = input("请输入查找的类型：")
